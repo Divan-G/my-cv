@@ -1,0 +1,67 @@
+html, body{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+}
+.content-wrapper{
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+#h33{
+    text-align: center;
+}
+.main{
+ align-items: center; 
+ display: flex;  
+background-color: lightblue;
+}
+.main img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.main span{
+    font-size: large;
+    font-weight: bold;
+
+}
+
+#clock-content{
+    display: flex ;
+    justify-content: flex-end;
+    text-align: right;
+    flex-grow: 1;
+}
+
+#clock{
+    display: inline-block;
+    width: fit-content;
+    margin-left: auto;
+}
+
+.left-side,.right-side{
+flex:1;
+
+}
+.left-side{
+    border-right: 2px brown;
+}
+.left-side iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+footer{
+    background-color: lightblue;
+    flex-shrink: 0;
+}
+.footer-container{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+.footer-col{
+    gap: 15px;
+    word-spacing: 1cm;
+}
